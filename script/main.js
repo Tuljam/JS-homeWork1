@@ -123,7 +123,7 @@ console.log(lengthWords.length);
 // ```javascript
     let aa = 4;
     let bb = 3;
-   alert (String(aa) + String(bb));
+
     
 
 
