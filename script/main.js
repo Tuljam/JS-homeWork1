@@ -101,9 +101,10 @@ console.log(lengthWords.length);
 
 //     `Variable: %variable name% have type: %type variable%`
 
-// let name = 'strowberry';
-// console. log(`Variable: %variable name% have type: %type variable%`);
-// let numberSymbol = 65;
+let variableA = 'some string';
+let variableAType= `type variable`;
+console. log(`Variable: ${variableA} have type: ${variableAType}`);
+
 
 
 // #### Task 7 💻
