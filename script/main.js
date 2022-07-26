@@ -43,8 +43,8 @@ console. log(myAgeInSeconds);
 // ```javascript
     let count = 42;
     let count1 = '42';
-    let userNameK = Number(42);
-    let userNameL = '42';
+    let userNameK = 52;
+    let userNameL = '63';
 
     console. log (count);
     console. log (userNameK);
@@ -52,7 +52,8 @@ console. log(myAgeInSeconds);
     console. log (parseInt(count1));
     console. log (count.toString());
     console. log (Number(userNameL));
-    console. log (userNameK);
+    console.log (String(count));
+    console.log (`${userNameK}`);
 
 
 // ```
@@ -100,9 +101,10 @@ console.log(lengthWords.length);
 
 //     `Variable: %variable name% have type: %type variable%`
 
-// let name = 'strowberry';
-// console. log(`Variable: %variable name% have type: %type variable%`);
-// let numberSymbol = 65;
+let variableA = 'some string';
+let variableAType= `type variable`;
+console. log(`Variable: ${variableA} have type: ${variableAType}`);
+
 
 
 // #### Task 7 💻
@@ -121,9 +123,13 @@ console.log(lengthWords.length);
 // Поменяйте значение переменных местами не создавая дополнительной переменной:
 
 // ```javascript
-    let aa = 4;
-    let bb = 3;
-   alert (String(aa) + String(bb));
+    let h = 4;
+    let f = 3;
+    console.log(h,f);
+    h = (f+h)-(f=h);
+    console.log(h,f);
+
+
     
 
 
